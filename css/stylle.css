@@ -1,0 +1,61 @@
+#slider{
+	height: 597px;
+	z-index: -10;
+	position: relative;
+}
+
+#image{
+	height: 597px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.img{
+	height: 100%;
+	width: 100%;
+}
+
+#image img{
+    height: 100%;
+    width: 100%;
+}
+
+
+#menu{
+	display: flex;
+	justify-content: space-around;
+	z-idex: 10;
+	opacity: ;
+}
+
+#slider :hover{
+	opacity: 1;
+}
+
+section #prev, #pause, #next{
+	cursor: pointer;
+}
+
+section #next{
+	position: absolute;
+	top: 75%;
+	right: 5%;
+}
+
+section #prev{
+	position: absolute;
+	top: 75%;
+	left: 5%;
+}
+
+section #pause{
+	position: absolute;
+	top: 75%;
+}
+#map{
+	height: 400px;
+}
+
+
+
+
